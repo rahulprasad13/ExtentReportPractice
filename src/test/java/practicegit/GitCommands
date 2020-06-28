@@ -79,6 +79,25 @@ C:\Practice\ExtentReports>
 
 //To move to created branch.
 C:\Practice\ExtentReports>git checkout develop
+//To switch from child branch to master
+C:\Practice\ExtentReports>git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+C:\Practice\ExtentReports>git pull origin master
+From https://github.com/rahulprasad13/ExtentReportPractice
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+C:\Practice\ExtentReports>git merge develop
+Updating 00ae0b9..a689d2a
+Fast-forward
+ src/test/java/practicegit/GitCommands       | 84 +++++++++++++++++++++++++++++
+ target/test-classes/practicegit/GitCommands | 84 +++++++++++++++++++++++++++++
+ 2 files changed, 168 insertions(+)
+ create mode 100644 src/test/java/practicegit/GitCommands
+ create mode 100644 target/test-classes/practicegit/GitCommands
+
+C:\Practice\ExtentReports>
 
                                                                                 
 
