@@ -1,0 +1,38 @@
+C:\Users\rahul.kumar1>git config --global user.name "rahul"
+
+C:\Users\rahul.kumar1>git config --global user.email "rahulkumaramar@gmail.com"
+
+C:\Users\rahul.kumar1>cd FacebookPOM
+
+C:\Users\rahul.kumar1\FacebookPOM>git init
+C:\Users\rahul.kumar1\FacebookPOM>git init
+Initialized empty Git repository in C:/Users/rahul.kumar1/FacebookPOM/.git/
+
+C:\Users\rahul.kumar1\FacebookPOM>git add *
+C:\Users\rahul.kumar1\FacebookPOM>git status
+C:\Users\rahul.kumar1\FacebookPOM>git commit -m "first commit"
+C:\Users\rahul.kumar1\FacebookPOM>git remote add origin https://github.com/rahulprasad13/FacebookDemo.git
+
+C:\Users\rahul.kumar1\FacebookPOM>git push -u origin master
+Enumerating objects: 173, done.
+Counting objects: 100% (173/173), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (155/155), done.
+Writing objects: 100% (173/173), 372.01 KiB | 2.82 MiB/s, done.
+Total 173 (delta 52), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (52/52), done.
+To https://github.com/rahulprasad13/FacebookDemo.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+C:\Practice\ExtentReports>git pull origin master
+//To create a new branch from master branch
+C:\Practice\ExtentReports>git checkout -b develop
+Switched to a new branch 'develop'
+//To check which branch you are
+C:\Practice\ExtentReports>git branch
+* develop
+  master
+
+C:\Practice\ExtentReports>
+                                                                                
+
