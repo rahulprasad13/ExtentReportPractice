@@ -40,6 +40,7 @@ public class ExtentReportDemo {
 		System.out.println("Navigated to mentioned URL");
 		System.out.println(driver.getTitle());
 		driver.close();
+		System.out.println("Browser closed");
 		test.fail("Result do not match");
 		extent.flush();
 	}
