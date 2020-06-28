@@ -34,5 +34,51 @@ C:\Practice\ExtentReports>git branch
   master
 
 C:\Practice\ExtentReports>
+
+C:\Practice\ExtentReports>git status
+On branch develop
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        src/test/
+        target/test-classes/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Practice\ExtentReports>git add *
+
+C:\Practice\ExtentReports>git status
+On branch develop
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   src/test/java/practicegit/GitCommands
+        new file:   target/test-classes/practicegit/GitCommands
+
+
+C:\Practice\ExtentReports>git commit -m "git commands file added"
+[develop 18dd6e6] git commands file added
+ 2 files changed, 76 insertions(+)
+ create mode 100644 src/test/java/practicegit/GitCommands
+ create mode 100644 target/test-classes/practicegit/GitCommands
+
+C:\Practice\ExtentReports>git push origin develop
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (8/8), 1.09 KiB | 186.00 KiB/s, done.
+Total 8 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'develop' on GitHub by visiting:
+remote:      https://github.com/rahulprasad13/ExtentReportPractice/pull/new/develop
+remote:
+To https://github.com/rahulprasad13/ExtentReportPractice.git
+ * [new branch]      develop -> develop
+
+C:\Practice\ExtentReports>
+
+//To move to created branch.
+C:\Practice\ExtentReports>git checkout develop
+
                                                                                 
 
