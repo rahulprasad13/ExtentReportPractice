@@ -37,6 +37,7 @@ public class ExtentReportDemo {
 		System.setProperty("webdriver.chrome.driver","C:\\Selenium Docs\\drivers\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://rahulshettyacademy.com");
+		System.out.println("Navigated to mentioned URL");
 		System.out.println(driver.getTitle());
 		driver.close();
 		test.fail("Result do not match");
